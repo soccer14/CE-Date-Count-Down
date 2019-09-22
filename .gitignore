@@ -10,6 +10,6 @@ while daysLeft > 0:
     print(timeLeft, end="") #prints the time to the screen
     time.sleep(1) # allows the funtion to wait one second before printing the next time line
     daysLeft -=1 # counts down the time by one
-print("\r")
-print("\r" + "its finaly time")
+print("\r") # adds space to the count and final message     
+print("\r" + "its finaly time") # final message 
    
