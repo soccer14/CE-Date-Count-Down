@@ -13,16 +13,19 @@ body
 .container
 {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
+	color: white;
+	text-shadow: 0px 0px 20px #00fff7;
 	transform: translate(-50%,-50%);
 	text-align: center;
 	padding: 10px;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	border: 5px solid black;
 	font-family: sans-serif;
 	font-size: 25px;
-	box-shadow: 0 0 20px 5px #00fff7;
+	/*box-shadow: 0 0 20px 10px #00fff7;*/
+	text-shadow: 10px;
 
 }
 
@@ -39,9 +42,10 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    padding: 0px;
+    padding: 15px;
     background-color: #fff;
     border: 5px solid black;
+	border-radius: 10px;
     font-family: sans-serif;
     font-size: 20px;
     box-shadow: 0 0 20px 5px #00fff7;
@@ -75,7 +79,7 @@ div.scrollmenu a:hover {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.8s; /* Safari */
+    -webkit-transition-duration: 0.8s;
     transition-duration: 0.8s;
     cursor: pointer;
 
