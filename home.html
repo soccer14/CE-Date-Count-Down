@@ -7,11 +7,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
     <div class="scrollmenu">
-    <button class="button seyram">Seyram</button>
+    <button class="button seyram" onclick="on()">Seyram</button>
     <button class="button marvin">Marvin</button>
     <button class="button mark">Mark</button>
     <button class="button edwen">Edwin</button>
     <button class="button button5">some1?????</button>
+<!--
     <button class="button button6">some1?????</button>
     <button class="button button7">some1?????</button>
     <button class="button button8">some1?????</button>
@@ -22,6 +23,8 @@
     <button class="button button13">some1?????</button>
     <button class="button button14">some1?????</button>
     <button class="button button15">some1?????</button>
+-->
+
 
     </div>
 
@@ -73,9 +76,35 @@
 	  			setTimeout(countDown,1000);
 
 	  		}
-
 	  		countDown();
 	  </script>
+
+      <div id="overlay" onclick="off()"> <!-- this is the actual overlay content-->
+  <div id="overlaytext" class="card">
+
+  <div>
+  		<div>
+  	<img src="images\seyramImage.png" alt="seyram's Avatar" class="cardimage">
+    		</div>
+              <div class="cardinfo">
+                <h3><b>Seyram Gbeblewou</b></h3>
+                <p>Hardware Engineer</p>
+                <p>prototype and design</p>
+               </div>
+			</div>
+
+  		</div>
+	</div>
+
+      <script>
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script>
 
 
 
