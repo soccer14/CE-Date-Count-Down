@@ -9,6 +9,20 @@
 
 </head>
 <body>
+          <div id="mySidenav" class="sidenav">
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <a href="resume/seyramresume.html"><button class="button seyram">Seyram</button></a>
+       <a href="resume/resumetemplate.html"><button class="button marvin">Marvin</button></a>
+       <a href="resume/resumetemplate.html"><button class="button mark">Mark</button></a>
+       <a href="resume/resumetemplate.html"><button class="button edwen">Edwen</button></a>
+       <a href="resume/resumetemplate.html"><button class="button button5">some1?</button></a>
+     </div>
+
+     <div id="main">
+       <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; VG CE</span>
+     </div>
+
+
 	  <table class="container"  cellpadding="25px">
 	  	<tr class="info">
 	  		<td id="days"></td>
@@ -58,31 +72,18 @@
 
       </script>
 
-      <div id="mySidenav" class="sidenav">
-   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-   <a href="#"><button class="button seyram">Seyram</button></a>
-   <a href="#"><button class="button marvin">Marvin</button></a>
-   <a href="#"><button class="button mark">Mark</button></a>
-   <a href="#"><button class="button edwen">Edwen</button></a>
-   <a href="#"><button class="button button5">some1?</button></a>
- </div>
-
- <div id="main">
-   <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776; VG CE</span>
- </div>
-
  <script>
- function openNav() {
-   document.getElementById("mySidenav").style.width = "250px";
-   document.getElementById("main").style.marginLeft = "250px";
-   document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
- }
+     function openNav() {
+       document.getElementById("mySidenav").style.width = "250px";
+       document.getElementById("main").style.marginLeft = "250px";
+       document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
+     }
 
- function closeNav() {
-   document.getElementById("mySidenav").style.width = "0";
-   document.getElementById("main").style.marginLeft= "0";
-   document.body.style.backgroundColor = "black";
- }
+     function closeNav() {
+       document.getElementById("mySidenav").style.width = "0";
+       document.getElementById("main").style.marginLeft= "0";
+       document.body.style.backgroundColor = "black";
+     }
  </script>
 
 </body>
