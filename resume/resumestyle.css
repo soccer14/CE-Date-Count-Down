@@ -133,7 +133,7 @@ main .hex {
     position:absolute;
     margin-top:-1px;
     margin-left:;
-/*     color:#ccc; */
+     color:#ccc; 
 }
 
 .hex:before { transform:rotate(60deg); }
