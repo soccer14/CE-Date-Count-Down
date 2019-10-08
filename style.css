@@ -1,5 +1,7 @@
 @font-face
 
+
+
 {
 	font-family: MyFont;
 	src:url(digital.ttf);
@@ -14,7 +16,7 @@ body
 .container
 {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	color: white;
 	/*color: #00fff7;
@@ -37,8 +39,10 @@ body
 	font-size: 100px;
 }
 
+/* the css for the log in box starts here.................................................
 .login
 {
+	width: 280px;
     position: absolute;
     top: 75%;
     left: 50%;
@@ -52,6 +56,65 @@ body
     font-size: 20px;
     box-shadow: 0 0 20px 5px #00fff7;
 }
+*/
+
+/*the css for the sample box starts here */
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+}
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+	font-size: 15px;
+}
+.submitlogin{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	font-size: 15px;
+}
+.submitlogin:hover{
+	background: #2ecc71;
+	color: Black;
+}
+/* css for the alt sign in box ends here*/
+
 
 .button {
     background-color: #111; /* regular background color for all buttons */

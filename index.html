@@ -3,13 +3,13 @@
 <html lang="en">
 
 <head>
-
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <meta charset="UTF-8">
-    <title>CE Count Down Clock</title>
+    <title>Ce Count Down Clock</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <table class="container"  cellpadding="25px">
@@ -61,18 +61,34 @@
       countDown();
     </script>
 
+    <!--the sample for the new Login starts here..... runs on much shorter code-->
+<form class="box" method="post">
+    <h1>Login</h1>
+        <input type="text" id="username" placeholder="username" name="">
+        <input type="password" id="password" placeholder="password" name="">
+        <button class="submitlogin" onclick="getInfo()" name="" value="Sign in">Sign In</button>
+</form>
+
+<script src="resume\js\login.js"></script>
+
+<!-- the sample ends here -->
+
+
+
+
+<!---
     <form class="login" action="db/login.php" cellpadding="20px">
       <table>
       <tr>
         <td>
-          <label for="user">Username: </label>
-          <input type="text" id="user" name="username">
+          <label for="user"></label>
+          <input type="text" placeholder="AppleConnectID"id="user" name="" value="">
         </td>
       </tr>
       <tr>
         <td>
-          <label for="pass">Password: </label>
-          <input type="password" id="pass" name="password" minlength="8" required>
+          <label for="pass"></label>
+          <input type="password" id="pass" placeholder="Password" minlength="8" required>
         </td>
       </tr>
       <tr>
@@ -82,6 +98,8 @@
       </tr>
       </table>
     </form>
+
+-->
 
 </body>
 </html>
