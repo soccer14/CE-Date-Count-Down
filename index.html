@@ -6,7 +6,8 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body oncontextmenu="return false">  <!-- should not alow for right clickign on the page -->
+
 
     <meta charset="UTF-8">
     <title>Ce Count Down Clock</title>
@@ -64,7 +65,7 @@
     <!--the sample for the new Login starts here..... runs on much shorter code-->
 <form class="box" method="post">
     <h1>Login</h1>
-        <input type="text" id="username" placeholder="username" name="">
+        <input type="text" id="username" placeholder="username" name="" autocomplete="off">
         <input type="password" id="password" placeholder="password" name="">
         <button class="submitlogin" onclick="getInfo()" name="" value="Sign in">Sign In</button>
 </form>

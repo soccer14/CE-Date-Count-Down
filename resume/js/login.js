@@ -4,16 +4,20 @@
 // Loop through Array of sample Username and password Objects
 var objPeople = [
 	{ // Object @ 0 index
-		username: "sam",
-		password: "Gbe"
+		username: "seyram",
+		password: "gbeblewou"
 	},
 	{ // Object @ 1 index
-		username: "matt",
-		password: "Kelly"
+		username: "marvin",
+		password: "blanko"
 	},
 	{ // Object @ 2 index
-		username: "mallorie",
-		password: "Kelly"
+		username: "mark",
+		password: "bernardo"
+	},
+	{ // Object @ 2 index
+		username: "#",
+		password: "#"
 	}
 
 ]
@@ -25,7 +29,9 @@ function getInfo() {
 	for(var i = 0; i < objPeople.length; i++) {
 		// checks if user input matches username and password
 		if(username == objPeople[i].username && password == objPeople[i].password) {
-			document.home.html
+			//window.open("home.html")
+			window.open("home.html");
+
             return
 		}
 	}
